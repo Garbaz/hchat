@@ -48,7 +48,7 @@ int main(int argc, char* argv[])
 		QUIT(5);
 	}
 	
-	while(nick.length() < 6)
+	while(nick.length() < 7)
 	{
 		cout << "Choose a Nickname (at least 3 characters): ";
 		getline(cin, nick);
