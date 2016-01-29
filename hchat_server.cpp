@@ -10,7 +10,7 @@
 #include <pthread.h>
 
 #define PORT "1729"
-#define MAX_CLIENTS 10
+#define MAX_CLIENTS 50
 #define BUFFER_LEN 256
 #define QUIT(ret) return ret;
 #define debug if(DO_DEBUG)cout
